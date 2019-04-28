@@ -87,13 +87,13 @@ AWS_SECRET_ACCESS_KEY=
 Set the CDN URL:
 
 ```php
-'url' => env('CDN_Url', 'https://s3.amazonaws.com'),
+'url' => env('CDN_URL', 'https://s3.amazonaws.com'),
 ```
 
 This can altered in your '.env' file as follows:
 
 ```bash
-CDN_Url=
+CDN_URL=
 ```
 
 ##### Bypass

@@ -38,7 +38,7 @@ return [
     | Set your CDN url, [without the bucket name]
     |
     */
-    'url' => env('CDN_Url', 'https://s3.amazonaws.com'),
+    'url' => env('CDN_URL', 'https://s3.amazonaws.com'),
 
     /*
     |--------------------------------------------------------------------------
