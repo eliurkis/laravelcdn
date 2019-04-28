@@ -15,7 +15,7 @@ return [
     | Default: false
     |
     */
-    'bypass' => env('CDN_Bypass', false),
+    'bypass' => env('CDN_BYPASS', false),
 
     /*
     |--------------------------------------------------------------------------
@@ -178,8 +178,8 @@ return [
                 |
                 */
                 'cloudfront'    => [
-                    'use'     => env('CDN_UseCloudFront', false),
-                    'cdn_url' => env('CDN_CloudFrontUrl', ''),
+                    'use'     => env('CDN_USE_CLOUD_FRONT', false),
+                    'cdn_url' => env('CDN_CLOUD_FRONT_URL', ''),
                 ],
 
                 /*
