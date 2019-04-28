@@ -25,7 +25,6 @@ This project has been forked from https://github.com/publiux/laravelcdn. All cre
 - Artisan command to upload content to CDN
 - Simple Facade to access CDN assets
 
-
 ### Questions
 1. Is this package an alternative to Laravel FileSystem and do they work together?
 
